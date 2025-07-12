@@ -1,0 +1,27 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build Results
+bin/
+obj/
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.cache
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Others
+*.dbmdl
+*.bak
