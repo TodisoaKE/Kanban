@@ -23,7 +23,7 @@ dotnet add package Microsoft.EntityFrameworkCore
 dotnet add package Microsoft.NETCore.App
 dotnet add package Npgsql
 dotnet add package Npgsql.EntityFrameworkCore.PostgreSQL
-
+```
 ### configuration
 Update your appsettings.json to match your PostgreSQL credentials:
 "ConnectionStrings": {
@@ -48,17 +48,3 @@ npm run dev
 [select, card, button, input, badge, usetoast, textarea]
 pnpm dlx shadcn add <install table one by one>
 
-
-
-Back end:
-- INstall NUgget Package: 
-	. Microsoft.EntityFrameworkCore
-	. Microsoft.NETCore.App 
-	. Npgsql
-	. Npgsql.EntityFrameworkCore.PostgreSQL
-- Update Database as yours ("ConnectionStrings": {
-  "DefaultConnection": "Host=localhost:_port_; Username=_pgName_; Password=_pgPwd_ ;Database=_BaseName_"
-},)
-
-Front End:
-- npm install
