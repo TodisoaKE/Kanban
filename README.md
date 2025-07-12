@@ -48,3 +48,6 @@ npm run dev
 [select, card, button, input, badge, usetoast, textarea]
 pnpm dlx shadcn add <install table one by one>
 
+
+## DATABASE
+You need to Execute script of the dump
